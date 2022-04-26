@@ -7,7 +7,7 @@ public class CalculateString {
     public static void getNumbersOfEachChar(String inputString) {
 
         int stringLength = inputString.length();
-        Map<Character, Integer> characters = new HashMap<Character, Integer>(Math.min(stringLength, 26));
+        Map<Character, Integer> characters = new HashMap<Character, Integer>();
 
         for (int i = 0; i < stringLength; ++i) {
             char charAt = inputString.charAt(i);
